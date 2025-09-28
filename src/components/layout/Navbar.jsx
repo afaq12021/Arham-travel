@@ -80,7 +80,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='bg-white flex justify-around items-center py-2 relative'>
+      <div className='bg-white flex justify-around items-center py-2 relative z-50 shadow-sm'>
         <div>
           <img src={Logo} alt='logo' className='w-45 object-contain' />
         </div>
@@ -103,7 +103,7 @@ function Navbar() {
               </div>
               
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300  ${
+              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300 z-50 ${
                 openDropdown === 'cityTour' ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
               }`}>
                 <ul className=" min-w-[200px]">
@@ -133,7 +133,7 @@ function Navbar() {
               </div>
               
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300  ${
+              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300 z-50 ${
                 openDropdown === 'desertSafari' ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
               }`}>
                 <ul className="min-w-[200px]">
@@ -163,7 +163,7 @@ function Navbar() {
               </div>
               
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300  ${
+              <div className={`absolute top-full left-0 mt-2 bg-[#1CA8CB] rounded-md shadow-lg overflow-hidden transition-all duration-300 z-50 ${
                 openDropdown === 'dinnerCruise' ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
               }`}>
                 <ul className=" min-w-[200px]">
