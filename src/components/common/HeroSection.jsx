@@ -7,7 +7,7 @@ import img1 from "../../assets/images/dubai2.jpg";
 import img2 from "../../assets/images/dubai1.jpg";
 import img3 from "../../assets/images/dubai3.jpg";
 
-
+//herosection
 function HeroSection() {
   const [formData, setFormData] = useState({
     name: '',
