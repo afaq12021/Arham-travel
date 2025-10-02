@@ -51,7 +51,7 @@
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/ArhamLogo.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaSortDown } from "react-icons/fa";
 
@@ -82,7 +82,7 @@ function Navbar() {
     <>
       <div className='bg-white flex justify-around items-center py-2 relative z-50 shadow-sm'>
         <div>
-          <img src={Logo} alt='logo' className='w-45 object-contain' />
+          <img src={Logo} alt='logo' className='w-48 object-contain' />
         </div>
 
         <div>

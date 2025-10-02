@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaWhatsapp, FaPaperPlane } from 'react-icons/fa';
-import img1 from "../../assets/images/camels.jpg";
+import img1 from "../../assets/images/dubai2.jpg";
 import img2 from "../../assets/images/dubai1.jpg";
-import img3 from "../../assets/images/dubai2.jpg";
+import img3 from "../../assets/images/dubai3.jpg";
 
 
 function HeroSection() {
@@ -87,11 +87,8 @@ function HeroSection() {
             {/* Left Content - 60% */}
             <div className="text-white space-y-5 animate-fadeIn lg:w-[70%]">
               <h1 className="text-4xl sm:text-4xl lg:text-5xl xl:text-[55px] font-bold leading-tight">
-                Discover <span className="text-[#1CA8CB]">Destinations</span> and Unique Adventures with
+                Discover <span className="text-[#1CA8CB]">Destinations</span> and Unique Adventures with Arham Travels
               </h1>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-                  Arham Travels
-              </h2>
               <p className="text-base sm:text-lg lg:text-lg max-w-3xl leading-relaxed">
                 Planning for a safe tour in Dubai? Arham Travels is right here with you — not just online, but on the ground. From desert safari Dubai adventures to private yacht escapes and sightseeing, we make sure every experience is smooth, secure, and full of joy.
               </p>

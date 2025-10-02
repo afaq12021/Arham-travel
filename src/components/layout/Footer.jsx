@@ -1,5 +1,5 @@
 import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/ArhamLogo.jpg";
 
 function Footer() {
   const popularTrips = [
@@ -17,14 +17,14 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-blue-50 py-12">
+    <footer className=" py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and CTA Section */}
           <div className="flex flex-col items-start">
             <div className="mb-6">
               {/* Replace with your logo */}
-              <img src={Logo} alt="Arham Travel Logo" className="w-50 h-auto" />
+              <img src={Logo} alt="Arham Travel Logo" className="w-56 h-auto" />
             </div>
             <p className="text-[#1CA8CB] font-semibold text-lg mb-6">
               Book Your Safari Today!
