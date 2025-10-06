@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from '../components/common/HeroSection'
+import FamousCategories from '../components/homeComponents/FamousCategories'
 
 
 
@@ -8,6 +9,7 @@ function Home() {
     <>
       <div>
         <HeroSection />
+        <FamousCategories />
 
 
 
