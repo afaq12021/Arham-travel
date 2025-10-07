@@ -12,6 +12,7 @@ import img9 from "../../assets/images/abudhabi.jpg";
 import img10 from "../../assets/images/yatch.jpg";
 import img11 from "../../assets/images/attractiveticket.jpg";
 
+//poplular packages
 const PopularPackages = () => {
     const packages = [
         {
