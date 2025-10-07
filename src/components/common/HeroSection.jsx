@@ -505,7 +505,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FaWhatsapp, FaPaperPlane } from 'react-icons/fa';
 import img1 from "../../assets/images/dubai1.jpg";
 import img3 from "../../assets/images/dubai4.jpg";
-import img4 from "../../assets/images/DesertSafari.jpg";
+import img4 from "../../assets/images/dubai6.jpg";
 import img5 from "../../assets/images/dubai5.jpg";
 import img6 from "../../assets/images/dubaiBuggy.jpg";
 

@@ -830,7 +830,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='bg-white flex justify-between items-center px-4 md:px-6 lg:px-8 py-2 fixed top-0 left-0 right-0 z-50 shadow-sm'>
+      <nav className='bg-white flex justify-around items-center px-4 md:px-6 lg:px-8 py-2 fixed top-0 left-0 right-0 z-50 shadow-sm'>
         {/* Logo */}
         <div>
           <img src={Logo} alt='logo' className='w-36 md:w-48 object-contain' />
