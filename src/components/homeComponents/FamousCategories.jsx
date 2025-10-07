@@ -298,7 +298,7 @@
 
 
 
-
+// responsive
 import React, { useState, useRef, useEffect } from 'react';
 import Slider from "react-slick";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
