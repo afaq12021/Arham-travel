@@ -407,7 +407,7 @@ const FamousCategories = () => {
     };
 
     return (
-        <div className="min-h-screen md:py-8 py-4 px-3 md:px-8">
+        <div className="md:py-8 py-4 px-3 md:px-8">
             <div className="w-full max-w-7xl mx-auto">
                 {/* Header Section */}
                 <div className="text-center mb-7 md:mb-14">
@@ -449,18 +449,18 @@ const FamousCategories = () => {
                                                 <img
                                                     src={attraction.image}
                                                     alt={attraction.name}
-                                                    className="w-full h-48 md:h-52 object-cover group-hover:scale-110 transition-transform duration-500"
+                                                    className="w-full h-44 md:h-52 object-cover group-hover:scale-110 transition-transform duration-500"
                                                 />
                                                 {/* Gradient Overlay */}
                                                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
                                             </div>
 
                                             {/* Content */}
-                                            <div className="p-4">
-                                                <h3 className="text-lg md:text-xl font-bold text-[#1CA8CB] mb-2 text-center">
+                                            <div className="md:p-4 p-3">
+                                                <h3 className="text-lg md:text-xl font-bold text-[#1CA8CB] md:mb-2 mb-1 text-center">
                                                     {attraction.name}
                                                 </h3>
-                                                <p className='text-gray-500 text-md font-medium leading-relaxed text-center'>
+                                                <p className='text-gray-500 md:text-md text-base  font-medium leading-relaxed text-center'>
                                                     {attraction.description}
                                                 </p>
                                             </div>
