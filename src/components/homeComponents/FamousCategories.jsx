@@ -319,7 +319,7 @@ const FamousCategories = () => {
             id: 1,
             name: "EXPLORE DESERT",
             image: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=400&h=300&fit=crop",
-            description: "Experience the vast beauty of golden sand dunes and breathtaking desert landscapes."
+            description: "Experience the vast beauty of golden sand dunes and breathtaking desert landscapes and beauty."
         },
         {
             id: 2,
@@ -408,7 +408,7 @@ const FamousCategories = () => {
 
     return (
         <div className="md:py-8 py-4 px-3 md:px-8">
-            <div className="w-full max-w-7xl mx-auto">
+            <div className="w-full ">
                 {/* Header Section */}
                 <div className="text-center mb-7 md:mb-14">
                     <h1 className="text-3xl md:text-[40px] font-semibold mb-4 md:mb-6 text-[#1CA8CB]">
@@ -422,7 +422,7 @@ const FamousCategories = () => {
                     {/* Previous Arrow */}
                     <button
                         onClick={goToPrev}
-                        className="absolute -left-2 md:left-0 top-1/2 -translate-y-1/2 z-10 bg-white hover:bg-gray-50 rounded-full p-2 shadow-lg transition-all duration-300 hover:scale-110"
+                        className="absolute -left-2 md:left-0 top-1/2 -translate-y-1/2 z-10 bg-white hover:bg-gray-50 rounded-full md:p-2 p-[5px] shadow-lg transition-all duration-300 hover:scale-110"
                         aria-label="Previous slide"
                     >
                         <ChevronLeft size={28} color='#1CA8CB'/>
@@ -431,7 +431,7 @@ const FamousCategories = () => {
                     {/* Next Arrow */}
                     <button
                         onClick={goToNext}
-                        className="absolute -right-2 md:right-0 top-1/2 -translate-y-1/2 z-10 bg-white hover:bg-gray-50 rounded-full p-2 shadow-lg transition-all duration-300 hover:scale-110"
+                        className="absolute -right-2 md:right-0 top-1/2 -translate-y-1/2 z-10 bg-white hover:bg-gray-50 rounded-full md:p-2 p-[5px] shadow-lg transition-all duration-300 hover:scale-110"
                         aria-label="Next slide"
                     >
                         <ChevronRight size={28} color='#1CA8CB' />

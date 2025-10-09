@@ -122,7 +122,7 @@ const PopularPackages = () => {
     };
 
     return (
-        <div className="md:py-16 py-12 md:px-8 px-4">
+        <div className="md:py-16 py-12 md:px-8 px-6">
             <div className="w-full">
                 {/* Header Section */}
                 <div className="text-center md:mb-14 mb-7">
