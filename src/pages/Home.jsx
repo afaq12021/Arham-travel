@@ -5,6 +5,7 @@ import PopularPackages from '../components/homeComponents/PopularPackages'
 import FeaturesSection from '../components/homeComponents/FeatureSection'
 import CTASection from '../components/homeComponents/CTASection'
 import TourPackagesSection from '../components/homeComponents/TourPackagesSection'
+import GoogleReviews from '../components/homeComponents/GoogleReviews'
 
 
 
@@ -18,6 +19,7 @@ function Home() {
         <FeaturesSection />
         <CTASection />
         <TourPackagesSection/>
+        <GoogleReviews/>
 
 
       </div>
