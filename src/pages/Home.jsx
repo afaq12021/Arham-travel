@@ -6,6 +6,7 @@ import FeaturesSection from '../components/homeComponents/FeatureSection'
 import CTASection from '../components/homeComponents/CTASection'
 import TourPackagesSection from '../components/homeComponents/TourPackagesSection'
 import GoogleReviews from '../components/homeComponents/GoogleReviews'
+import FAQSection from '../components/homeComponents/FAQSection '
 
 
 
@@ -20,6 +21,7 @@ function Home() {
         <CTASection />
         <TourPackagesSection/>
         <GoogleReviews/>
+        <FAQSection />
 
 
       </div>
